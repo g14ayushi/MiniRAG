@@ -1,0 +1,10 @@
+Python is a high-level, interpreted, general-purpose programming language created by Guido van Rossum and first released in 1991. It emphasizes readability, simplicity, and ease of learning, making it one of the most popular programming languages today.
+    Key Features of Python :
+    - Python syntax is clean and close to natural language.
+    - Reduces the learning curve for beginners.
+    - Python code is executed line by line, making debugging easier.
+    - Variable types are determined at runtime, so you don’t need to declare them explicitly.
+    - Supports classes, objects, inheritance, as well as procedural programming.
+    - Provides built-in modules for tasks like file handling, math, regular expressions, networking, and more.
+    - Python can run on Windows, macOS, Linux, and many other platforms without changing the code.
+Python is widely used because it allows developers to write fewer lines of code while performing complex tasks. Its simplicity, versatility, and large ecosystem of libraries make it a top choice for beginners, researchers, and professionals alike.

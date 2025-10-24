@@ -1,0 +1,4 @@
+.env
+notebook/document.ipynb
+.venv
+.gitignore
