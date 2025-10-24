@@ -33,6 +33,38 @@ Below is the high-level flow of the project showing how PDFs are processed and u
 
 ---
 
+## 💬 Example Query
+
+**Input Question:**  
+> What is self-attention?
+
+**With RAG (Context-Aware):**
+> Self-attention is a mechanism in deep learning models, particularly in transformer architectures, that allows the model to weigh the importance of different input elements relative to each other. It enables the model to focus on specific parts of the input sequence and attend to them more heavily, rather than treating all elements equally. This helps the model to capture long-range dependencies and relationships within the input data.
+
+**Without RAG (No External Context):**
+> Self-attention is a fundamental concept in deep learning, particularly in the field of natural language processing (NLP) and computer vision. It’s a mechanism that allows a model to focus on different parts of the input data and weigh their importance relative to each other.
+>
+> **What is self-attention?**  
+> Self-attention is a type of attention mechanism that allows a model to attend to different parts of the input data and weigh their importance. It’s called “self-attention” because it allows the model to attend to different parts of the input data itself, rather than relying on external information.  
+>
+> **How does self-attention work?**  
+> Self-attention works by computing a weighted sum of the input elements, where the weights are learned during training. The process can be broken down into three main steps:
+> 1. **Query** – represents what we’re trying to attend to.  
+> 2. **Key** – represents potential matches in the sequence.  
+> 3. **Value** – carries information to aggregate.
+>
+> The formula:  
+> `Attention(Q, K, V) = softmax(Q * K^T / sqrt(d)) * V`
+>
+> Self-attention is widely used in **transformers**, enabling them to model long-range dependencies in **NLP**, **vision**, and **speech recognition** tasks.
+
+---
+
+🧩 **Insight:**  
+The “With RAG” response is **concise and focused** since it uses **retrieved context** from uploaded PDFs.  
+The “Without RAG” output is **generic and verbose**, reflecting how LLMs behave without external grounding.
+
+
 ## Tech Stack
 **Python**, **LangChain**, **ChromaDB**, **SentenceTransformers**, **Groq**, **LLMs**, **Jupyter Notebook**
 
